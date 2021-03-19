@@ -2,8 +2,8 @@
 # Script to delete images if corresponding annotation does not exist
 # a=$(find $(pwd) -iname '*.jpg')
 
-folder=PET/
-dir='../DIRT/'$folder
+folder='packets/'
+dir='../'$folder
 a=$(find $dir -iname '*.jpg')
 
 for f in $a
@@ -15,7 +15,7 @@ do
       echo 'exists'
       # echo "$b exists."
     else 
-      # rm $f
+      rm $f
       echo "$b does not exist."
   fi
 done

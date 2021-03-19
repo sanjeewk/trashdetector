@@ -1,7 +1,0 @@
-coffee_spill
-dust
-paper
-bottles
-metal
-glass
-
